@@ -12,19 +12,6 @@ class RemotePresenceRobot:
         pass
 
 
-
-def on_button_pressed(button):
-    print('Button {0} was pressed'.format(button.name))
-
-
-def on_button_released(button):
-    print('Button {0} was released'.format(button.name))
-
-
-def on_axis_moved(axis):
-    print('Axis {0} moved to {1} {2}'.format(axis.name, axis.x, axis.y))
-
-
 if __name__ == "__main__":
     # rpr = RemotePresenceRobot()
     mc = MotorControl()
