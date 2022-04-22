@@ -1,7 +1,5 @@
-from time import sleep
 import pigpio
 import math
-from xbox360controller import Xbox360Controller
 
 class DifferentialDrive:
     def __init__(self):
